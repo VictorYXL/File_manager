@@ -1,0 +1,27 @@
+﻿生成启动时间为 2015/7/11 9:50:55。
+     1>项目“J:\C++\QT\File Manager\FileManager\FileManager.vcxproj”在节点 2 上(Build 个目标)。
+     1>CustomBuild:
+         Moc'ing filemanager.h...
+         Uic'ing filemanager.ui...
+         Rcc'ing Pic.qrc...
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(935,5): warning MSB8027: Two or more files with the name of moc_filemanager.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are GeneratedFiles\Debug\moc_filemanager.cpp, GeneratedFiles\Release\moc_filemanager.cpp.
+       ClCompile:
+         F:\IDE\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I. /IF:\IDE\Qt\Qt4.5.1\5.4\msvc2013\include /IF:\IDE\Qt\Qt4.5.1\5.4\msvc2013\include\QtWidgets /IF:\IDE\Qt\Qt4.5.1\5.4\msvc2013\include\QtGui /IF:\IDE\Qt\Qt4.5.1\5.4\msvc2013\include\QtANGLE /IF:\IDE\Qt\Qt4.5.1\5.4\msvc2013\include\QtCore /Idebug /I. /I"F:\IDE\Qt\Qt4.5.1\5.4\msvc2013\mkspecs\win32-msvc2013" /I.\GeneratedFiles /Zi /nologo /W3 /WX- /Od /Oy- /D _WINDOWS /D UNICODE /D WIN32 /D QT_WIDGETS_LIB /D QT_GUI_LIB /D QT_CORE_LIB /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"Win32\Debug\\" /Fd"Win32\Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt -Zm200 -w34100 -w34189 filemanager.cpp GeneratedFiles\Debug\moc_filemanager.cpp main.cpp
+         filemanager.cpp
+     1>filemanager.cpp(34): warning C4018: “<”: 有符号/无符号不匹配
+         moc_filemanager.cpp
+         main.cpp
+         正在生成代码...
+         F:\IDE\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I. /IF:\IDE\Qt\Qt4.5.1\5.4\msvc2013\include /IF:\IDE\Qt\Qt4.5.1\5.4\msvc2013\include\QtWidgets /IF:\IDE\Qt\Qt4.5.1\5.4\msvc2013\include\QtGui /IF:\IDE\Qt\Qt4.5.1\5.4\msvc2013\include\QtANGLE /IF:\IDE\Qt\Qt4.5.1\5.4\msvc2013\include\QtCore /Idebug /I. /I"F:\IDE\Qt\Qt4.5.1\5.4\msvc2013\mkspecs\win32-msvc2013" /I.\GeneratedFiles /Zi /nologo /W3 /WX- /Od /Oy- /D _WINDOWS /D UNICODE /D WIN32 /D QT_WIDGETS_LIB /D QT_GUI_LIB /D QT_CORE_LIB /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"Win32\Debug\\" /Fd"Win32\Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt -Zm200 -w34100 -w34189 GeneratedFiles\qrc_Pic.cpp
+         qrc_Pic.cpp
+       Link:
+         F:\IDE\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"debug\\FileManager.exe" /NOLOGO /LIBPATH:F:\IDE\Qt\Qt4.5.1\5.4\msvc2013\lib /LIBPATH:F:\IDE\Qt\Qt4.5.1\5.4\msvc2013\lib /LIBPATH:F:\IDE\Qt\Qt4.5.1\5.4\msvc2013\lib F:\IDE\Qt\Qt4.5.1\5.4\msvc2013\lib\qtmaind.lib shell32.lib F:\IDE\Qt\Qt4.5.1\5.4\msvc2013\lib\Qt5Cored.lib F:\IDE\Qt\Qt4.5.1\5.4\msvc2013\lib\Qt5Widgetsd.lib F:\IDE\Qt\Qt4.5.1\5.4\msvc2013\lib\Qt5Guid.lib F:\IDE\Qt\Qt4.5.1\5.4\msvc2013\lib\Qt5Cored.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"debug\FileManager.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /MACHINE:X86 /SAFESEH "/MANIFESTDEPENDENCY:type='win32' name='Microsoft.Windows.Common-Controls' version='6.0.0.0' publicKeyToken='6595b64144ccf1df' language='*' processorArchitecture='*'" Win32\Debug\filemanager.obj
+         Win32\Debug\moc_filemanager.obj
+         Win32\Debug\qrc_Pic.obj
+         Win32\Debug\main.obj
+         FileManager.vcxproj -> J:\C++\QT\File Manager\FileManager\debug\FileManager.exe
+     1>已完成生成项目“J:\C++\QT\File Manager\FileManager\FileManager.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:05.53
